@@ -3,7 +3,7 @@ import Orbital
 import streamlit as st
 
 st.sidebar.markdown("## Parameters")
-N = st.sidebar.slider('Vertex', 20, 300, 20, 10)
+N = st.sidebar.slider('Vertex', 50, 300, 20, 10)
 # r = 100 - st.sidebar.slider('Density', 0, 100, 10, 1)
 
 st.sidebar.markdown("--------")
